@@ -138,6 +138,7 @@ void vTask2_handler(void *param)
 			}
 
 
+		}
 	}
 }
 static void prvSetupHardware(void)
