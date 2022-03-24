@@ -71,7 +71,7 @@ int main(void)
 	//3. Lets create 2 tasks, task-1 and task-2
     xTaskCreate(vTask1_handler,"Task-1/Description",configMINIMAL_STACK_SIZE,NULL,2,&xTaskHandle1);
 
-    xTaskCreate(vTask2_handler,"Task-1/Description",configMINIMAL_STACK_SIZE,NULL,2,&xTaskHandle1);
+    xTaskCreate(vTask2_handler,"Task-1/Description",configMINIMAL_STACK_SIZE,NULL,2,&xTaskHandle2);
 
     //4. Start the scheduler
     vTaskStartScheduler();
